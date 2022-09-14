@@ -15,3 +15,6 @@ https://disk.pku.edu.cn:443/link/1BBE0AB29649F04B04EE314EAC3D597B
 
 # K&R Electric version
 https://disk.pku.edu.cn:443/link/2F9C38915A895B38FDF591CE78F2F70D
+
+# Class vedio
+https://www.jianguoyun.com/p/DVDuutUQrqzuChi8gNcEIAA
