@@ -1,14 +1,18 @@
 #include <stdio.h>
 
 int main(){
-    int x;
-    float y;
-
-    while ((x - y) > -1 && (x - y) < 1){
-        x++;
-        y++;
+    int i, j, k;
+    for(i = 0; i <= 2147483647 - 2; i++){
+        j = i + 1;
+        k = j + 1;
+        float *x = (float *)(&i);
+        float *y = (float *)(&j);
+        float *z = (float *)(&k);
+        if (*y - *x != *z - *y){
+            printf("0x%08x\n", i);
+            break;
+        }
     }
 
-    printf("%d %f\n", x, y);
     return 0;
 }
