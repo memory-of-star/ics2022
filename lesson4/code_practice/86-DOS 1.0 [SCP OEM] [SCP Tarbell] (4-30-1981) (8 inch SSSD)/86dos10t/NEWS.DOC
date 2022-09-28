@@ -1,0 +1,34 @@
+LATE NEWS AS OF APRIL 28, 1981
+
+The file CPMTAB.ASM is the source file for the tables used by RDCPM and
+is provided as an example of how new tables may be prepared. These
+tables allow reading 8" or 5" single-density CP/M disks. If new tables
+are desired for reading disks of a different CP/M 2 format, follow 
+these steps:
+
+	1. Prepare a source file of the new tables (see MAKRDCPM in
+	   manual).
+
+	2. Assemble the new tables.
+
+	3. Convert the new tables to binary with HEX2BIN.
+
+	4. Run MAKRDCPM.
+
+
+The files INIT.ASM and INIT.COM are the source and object code for a
+disk initialization routine. Any raw or blown disk may be formatted
+by this routine to an empty disk with the soft-sector information
+necessary for your controller. Note that CLEAR must be run after
+formatting to use the disk with 86-DOS. The program prints a warning
+message and asks which drive to format before initializing begins.
+
+NOTE TO CROMEMCO USERS: You have two programs, INITLARG and INITSMAL.
+Each may only be used with 8" and 5" drives, respectively.
+
+NOTE TO TARBELL DOUBLE DENSITY USERS: You have two programs, INIT and
+DINIT. INIT does a single density initialization on drives A to D.
+DINIT does a double density initialization on drives A to D. Since
+these are not normally double density drives, you may get an error
+message after initialization is complete which can be ignored.
+

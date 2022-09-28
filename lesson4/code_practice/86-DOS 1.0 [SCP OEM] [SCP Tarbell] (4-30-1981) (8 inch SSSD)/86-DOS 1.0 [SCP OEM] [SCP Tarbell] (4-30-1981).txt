@@ -1,0 +1,25 @@
+86-DOS 1.0 [SCP OEM] [SCP Tarbell] (4-30-1981) (8 inch SSSD)
+Released in 1981 by Seattle Computer Products
+For SCP S-100 with Tarbell disk controller
+
+This is the "1.00" release of Seattle Computer Products 86-DOS, on
+which PC/MS-DOS was based. It is specifically for the 8086 SCP S-100
+system with Tarbell disk controller. 
+
+This archive contains a bootable disk image in ImageDisk format. The
+image is for 256 KB 8-inch Single Sided, Single Density floppy disk
+media (77 tracks, 1 head, 26 sectors per track, 128 bytes per sector
+FM)
+
+Important: This disk is NOT for IBM PC compatible hardware or IBM PC
+emulators.
+
+SCP 86 DOS
+Version 1.0 - Tarbell DD
+
+Serial #0282
+Copyright 1980, 1981 by
+Seattle Computer Products, Inc
+
+Source is Bitsavers:
+http://bitsavers.trailing-edge.com/bits/SeattleComputerProducts/
