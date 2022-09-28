@@ -1,4 +1,4 @@
-# And here is document for IEEE 754
+# Here is some reference documents
 https://www.jianguoyun.com/p/DSzxiucQrqzuChiCxNoEIAA
 
 # If you want some exercise, check it. You can discuss those problems in our wechat group if you have any question.
